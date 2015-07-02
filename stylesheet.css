@@ -1,0 +1,58 @@
+body {
+    background: white;
+    color: black;
+    height: 900px;
+}
+#output {
+    white-space: pre;
+    white-space: -moz-pre-wrap;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+h3 + div {
+    margin: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+#input {
+    width: 100%;
+    border: none;
+    padding: 0;
+    overflow: auto;
+}
+.input {
+    color: green;
+    background: white;
+    font: inherit;
+    font-weight: bold;
+    margin-top: .5em;
+    padding: 5px;
+}
+.normalOutput {
+    color: black;
+    background: white;
+}
+.print {
+    color: brown;
+    background: white;
+}
+.error {
+    color: red;
+    background: white;
+}
+.propList {
+    color: green;
+    background: white;
+}
+.message {
+    color: green;
+    background: white;
+}
+.tabcomplete {
+    color: purple;
+    background: white;
+}
